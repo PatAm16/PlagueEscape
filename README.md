@@ -1,2 +1,2 @@
-# PlagueEscape - Projeto de Francisco Costa, Marioana Cidade, Maria Nunes, Patrícia Amaral
+# PlagueEscape - Projeto de Francisco Costa, Mariana Cidade, Maria Nunes, Patrícia Amaral
  
