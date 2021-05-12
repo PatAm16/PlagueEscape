@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 208613753}
   - component: {fileID: 208613752}
   m_Layer: 5
-  m_Name: Button (9)
+  m_Name: Fonte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 394636603}
   - component: {fileID: 394636602}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: Sound Designer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 624354647}
   - component: {fileID: 624354646}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Level Designer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 667507932}
   - component: {fileID: 667507931}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: "M\xFAsica"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2036,7 +2036,7 @@ GameObject:
   - component: {fileID: 983941041}
   - component: {fileID: 983941040}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Multimedia I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3140,8 +3140,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 418161707}
   m_HandleRect: {fileID: 418161706}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.35240126
+  m_Value: 0.49999994
+  m_Size: 0.4204038
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3405,7 +3405,7 @@ GameObject:
   - component: {fileID: 1546731030}
   - component: {fileID: 1546731029}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Visual Designer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3680,7 +3680,7 @@ GameObject:
   - component: {fileID: 1615212749}
   - component: {fileID: 1615212748}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: Game Developer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 1652715280}
   - component: {fileID: 1652715279}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: ProgramacaoI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 1744186195}
   - component: {fileID: 1744186194}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: 2020/2021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4753,7 +4753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 884.64, y: -1191.8961}
+  m_AnchoredPosition: {x: 884.64, y: -501.0775}
   m_SizeDelta: {x: 1793.4331, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087045128
