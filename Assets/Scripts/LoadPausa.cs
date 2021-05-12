@@ -9,6 +9,12 @@ public class LoadPausa : MonoBehaviour
 
     public GameObject MenuPausaUI;
 
+    private void Start()
+    {
+        MenuPausaUI.SetActive(false);
+        GameIsPaused = true;
+    }
+
 
     void Update()
     {if (Input.GetKeyDown(KeyCode.Escape))
@@ -24,14 +30,14 @@ public class LoadPausa : MonoBehaviour
         }
     }
 
-    void Retomar()
+    public void Retomar()
     {
         MenuPausaUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
-    void Pausa()
+    public void Pausa()
     {
         MenuPausaUI.SetActive(true);
         Time.timeScale = 0f;
