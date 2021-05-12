@@ -9,6 +9,12 @@ public class LoadPausa : MonoBehaviour
 
     public GameObject MenuPausaUI;
 
+    private void Start()
+    {
+        MenuPausaUI.SetActive(false);
+        GameIsPaused = true;
+    }
+
 
     void Update()
     {if (Input.GetKeyDown(KeyCode.Escape))
