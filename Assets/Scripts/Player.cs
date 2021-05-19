@@ -10,10 +10,15 @@ public class Player : MonoBehaviour
     private float gravity = 9.81f;
     [SerializeField]
     private float jumpSpeed = 3.5f;
+    [SerializeField]
+    private float doubleJumpMultiplier = 0.5f;
 
     private CharacterController controller;
 
     private float directionY;
+
+    private bool canDoubleJump = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,12 +35,22 @@ public class Player : MonoBehaviour
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
 
         if (controller.isGrounded) {
+
+            canDoubleJump = true;
             if (Input.GetButtonDown("Jump"))
             {
                 directionY = jumpSpeed;
             }
 
              
+        } else
+        {
+            if (Input.GetButtonDown("Jump") && canDoubleJump)
+            {
+                directionY = jumpSpeed * doubleJumpMultiplier;
+                canDoubleJump = false;
+
+            }
         }
 
         directionY -= gravity * Time.deltaTime;
