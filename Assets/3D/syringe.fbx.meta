@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a645beea2bff9645bc022e556987af3
+guid: ec339a5673fa7bd41a3c500e6c88c7e1
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,43 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: aiStandardSurface2
-    second: {fileID: 2100000, guid: c0e311007c3e2ab40a3fdd517a090ea5, type: 2}
+      name: GLASS
+    second: {fileID: 2100000, guid: 2b2b90040e33d724bb830ec197bb0da6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: aiStandardSurface7
-    second: {fileID: 2100000, guid: 55061814af96285429baeebee279cfdf, type: 2}
+      name: METAL
+    second: {fileID: 2100000, guid: c0734bdf028554b4b95d2bfb8fc877b4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: aiStandardSurface8
-    second: {fileID: 2100000, guid: 57dd6d78a4565a14d93a386ccae98693, type: 2}
+      name: PRETO
+    second: {fileID: 2100000, guid: b73d5b3732b2cb04b9acfeacff3bc685, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: glasses
-    second: {fileID: 2100000, guid: d2f51022da1249a4bb582a1660d0d62f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 9eebff9dac6d52c41978026477d1f193, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: latex
-    second: {fileID: 2100000, guid: 48d7b913595a6324f927c44349b579dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: leather
-    second: {fileID: 2100000, guid: ac489243ef443da4cb32325a02a1b0c9, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: LEATHER
-    second: {fileID: 2800000, guid: 2e7805531e279d244a3b27ebc9cb6f4a, type: 3}
+      name: VAXX
+    second: {fileID: 2100000, guid: f799c9707c07e5842af05d83437b2fc1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
