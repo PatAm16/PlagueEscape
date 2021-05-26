@@ -29,10 +29,14 @@ public class GameOver : MonoBehaviour
         if (jogoAcabou == false)
         {
             tempoDecorrido += Time.deltaTime;
+
             if (tempoDecorrido >= tempoDeEspera)
             {
                 MenuGameOver.SetActive(true);
+                Debug.Log("GameOver");
                 jogoAcabou = true;
+              
+
             }
         }
         
