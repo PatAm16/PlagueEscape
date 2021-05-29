@@ -6,7 +6,47 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 6187eac0b0597d44d81cec9bf3989972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 82eff76afbe5ad248abb12aefe81cf97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert18
+    second: {fileID: 2100000, guid: b5475b166c705534d8c93d9dd00189ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert19
+    second: {fileID: 2100000, guid: 1b1e7629b97539c4f888a883611f198e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20
+    second: {fileID: 2100000, guid: 0ff18be5fff413e4c8a243b7c380f281, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: fed12a6f3d51de045a610d6a28a859d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 37796a54383bbc748b6d8c07e0bd7dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong3
+    second: {fileID: 2100000, guid: e72d416cd9e1deb43ac4f722027b9619, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -72,7 +112,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human:
