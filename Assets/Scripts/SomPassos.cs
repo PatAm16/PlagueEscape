@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class SomPassos : MonoBehaviour
 {
-    public AudioClip PassosSom;
+    public AudioSource PassosSom;
     // Start is called before the first frame update
     void Start()
     {
-        AudioSource.PlayClipAtPoint(PassosSom, transform.position);
+        PassosSom = GetComponent<AudioSource>();
+        PassosSom.Play(0);
+
     }
 
     // Update is called once per frame
