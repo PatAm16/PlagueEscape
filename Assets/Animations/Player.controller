@@ -632,6 +632,18 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &5932015534032652287
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321bbea14a36b40b5a96d5f0b35d8932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1102 &6571558610906844460
 AnimatorState:
   serializedVersion: 5
