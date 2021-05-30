@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoadJogar : MonoBehaviour
 {
+    
     public void LoadJogarScene()
     {
-        SceneManager.LoadScene("Nivel1");
+        
+            SceneManager.LoadScene("Nivel1");
+        
     }
 }
