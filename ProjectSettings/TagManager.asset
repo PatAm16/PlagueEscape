@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SoundTrigger
+  - SoundTrigger2
   layers:
   - Default
   - TransparentFX

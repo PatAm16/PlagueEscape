@@ -65,7 +65,12 @@ public class Player : MonoBehaviour
         if(other.CompareTag("SoundTrigger"))
         {
             other.GetComponent<AudioSource>().Play();
+
+        }else if (other.CompareTag("SoundTrigger2"))
+        {
+            other.GetComponent<AudioSource>().Play();
         }
+            
     }
 
     private void OnTriggerExit(Collider other)
@@ -73,6 +78,10 @@ public class Player : MonoBehaviour
         if (other.CompareTag("SoundTrigger"))
         {
             other.GetComponent<AudioSource>().Stop();
-        }
+
+        }else if (other.CompareTag("SoundTrigger2"))
+        {
+            other.GetComponent<AudioSource>().Stop();
+}
     }
 }
