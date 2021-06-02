@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoNivel1 : MonoBehaviour
-{
-    public void EscolherNivel1()
-    {
-        SceneManager.LoadScene("Nivel1");
-    }
 
+public class LoadNivel2 : MonoBehaviour
+{
+    public void CarregarNivel2()
+    {
+        SceneManager.LoadScene("Nivel2");
+    }
 }
