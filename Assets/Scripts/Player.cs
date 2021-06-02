@@ -59,4 +59,20 @@ public class Player : MonoBehaviour
 
         controller.Move(direction * movespeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("SoundTrigger"))
+        {
+            other.GetComponent<AudioSource>().Play();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("SoundTrigger"))
+        {
+            other.GetComponent<AudioSource>().Stop();
+        }
+    }
 }
