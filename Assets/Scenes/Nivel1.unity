@@ -5265,6 +5265,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vacina
       objectReference: {fileID: 0}
+    - target: {fileID: 2902691340581718487, guid: ad71c69f6cb50f8489e56feafae4fdec,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4866876676916527501, guid: ad71c69f6cb50f8489e56feafae4fdec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4866876676916527501, guid: ad71c69f6cb50f8489e56feafae4fdec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 6986701877394129889, guid: ad71c69f6cb50f8489e56feafae4fdec,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad71c69f6cb50f8489e56feafae4fdec, type: 3}
 --- !u!1001 &3457875228771412539
